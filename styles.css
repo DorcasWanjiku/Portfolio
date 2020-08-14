@@ -1,5 +1,5 @@
 body{
-    background-color: #f6f5f5;
+    background-color: #F6F5F5;
     margin: 0;
     padding: 0;
 }
@@ -12,9 +12,10 @@ a{
 section{
     width: 100%;
     height: 95vh;
-    background-image: url(../images);
+    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 nav{
     display: flex;
@@ -23,17 +24,16 @@ nav{
     height: 60px;
     background-color: #FFFFFF;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-    padding: 0px, 5%;
+    padding: 0px 5%;
 }
 nav ul{
     display: flex;
 }
-
 nav ul li a{
     margin: 30px;
-    font-family:myriad pro regular ;
+    font-family: myriad pro regular;
     color: #505050;
-    font-size:15px;
+    font-size: 15px;
     font-weight: 700;
 }
 .logo{
@@ -43,25 +43,24 @@ nav ul li a{
 }
 .active{
     font-weight: bold;
-    color: #2d2a2a;
+    color: #2D2A2A;
 }
 .text-container p:nth-child(1){
     font-family: calibri;
     font-weight: bold;
-    color: #6d6d6d;
-    font-size: 22px;   
-
+    color: #6D6D6D;
+    font-size: 22px;
 }
 .text-container p:nth-child(2){
     font-family: calibri;
     font-weight: bold;
     letter-spacing: 1px;
-    color: #1a1a1a;
+    color: #1A1A1A;
     font-size: 60px;
 }
 .text-container p:nth-child(3){
-    font-family: myriad pro regular;
-    color: #403e3e;
+    font-family: myriad pro regelar;
+    color: #403E3E;
     font-size: 30px;
     line-height: 30px;
 }
@@ -72,8 +71,8 @@ nav ul li a{
 .text-container{
     position: absolute;
     left: 13%;
-    top:42%
-    
+    top: 42%;
+    transform: translate(-13% -42%);
 }
 .text-container button{
     width: 130px;
@@ -87,29 +86,26 @@ nav ul li a{
 }
 .hire-btn{
     border: 2px solid #373636;
-    color:#373636
+    color: #373636;
 }
 .down-cv{
-    background-color: #0b0b0b;
-    color:#FFFFFF;
-    border:none
+    background-color: #0B0B0B;
+    color: #FFFFFF;
+    border: none;
 }
 button:active{
-    transform: scale(1.1);
+    transform: scaleX(1.1);
+}
 
-}
-.shoot{
-    height: 560px;
-    position: absolute;
-    bottom: 0px;
-    left: 70%;
-    transform: translateX(-70%);
-}
 .about-container{
     width: 80%;
     height: 330px;
     background-color: #FFFFFF;
-    border-radius: 20PX;
+    border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-}
+    display: flex;
+    margin: -7% auto 20px auto;  
+    position: relative;
 
+
+}
