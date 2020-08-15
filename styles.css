@@ -1,5 +1,5 @@
 body{
-    background-color: #F6F5F5;
+    background-color:#0B0B0B;
     margin: 0;
     padding: 0;
 }
@@ -23,7 +23,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    background-color: #FFFFFF;
+    background-color: #0B0B0B;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     padding: 0px 5%;
 }
@@ -33,35 +33,35 @@ nav ul{
 nav ul li a{
     margin: 30px;
     font-family: myriad pro regular;
-    color: #505050;
+    color: goldenrod;
     font-size: 15px;
     font-weight: 700;
 }
 .logo{
     font-family: RoadTest;
-    color: #000000;
+    color:goldenrod;
     font-size: 22px;
 }
 .active{
     font-weight: bold;
-    color: #2D2A2A;
+    color: goldenrod;
 }
 .text-container p:nth-child(1){
     font-family: calibri;
     font-weight: bold;
-    color: #6D6D6D;
+    color: goldenrod;
     font-size: 22px;
 }
 .text-container p:nth-child(2){
     font-family: calibri;
     font-weight: bold;
     letter-spacing: 1px;
-    color: #1A1A1A;
+    color: goldenrod;
     font-size: 60px;
 }
 .text-container p:nth-child(3){
     font-family: myriad pro regelar;
-    color: #403E3E;
+    color: goldenrod;
     font-size: 30px;
     line-height: 30px;
 }
@@ -87,11 +87,11 @@ nav ul li a{
 }
 .hire-btn{
     border: 2px solid #373636;
-    color: #373636;
+    color: goldenrod;
 }
 .down-cv{
     background-color: #0B0B0B;
-    color: #FFFFFF;
+    color: goldenrod;
     border: none;
 }
 button:active{
@@ -124,14 +124,14 @@ button:active{
     width: 550px;
 }
 .about-text p:nth-child(1){
-    color: #403E3E;
+    color: goldenrod;
     font-family: myriad pro;
     font-weight: bold;
     font-size: 23px;
     line-height: 0px;
 }
 .about-text p:nth-child(2){
-    color: #3E3D3D;
+    color: goldenrod;
     font-size: 13px;
     font-family: myriad pro;
     font-weight: bold;
@@ -139,14 +139,14 @@ button:active{
 }
 .about-text p:nth-child(3)
 .about-text p:nth-child(4){
-    color: #7e7d7d;
+    color: goldenrod;
     font-family: calibri;
     font-size: 16px;
 }
 .about-text button{
     width: 120px;
     height: 40px;
-    color: #FFFFFF;
+    color: goldenrod;
     outline: none;
     border: none;
     font-family: calibri;
@@ -154,26 +154,26 @@ button:active{
 }
 .projects{
     height: 600px;
-    background-color: #FFFFFF;
+    background-color: white;
     padding: 2% 10% 0px 10%;
 }
 .projects-text p:nth-child(1){
     font-family: calibri;
     font-weight: bold;
-    color: #3e3d3d;
+    color: goldenrod;
     font-size: 30px;
     line-height: 0px;
 }
 projects-text p:nth-child(2){
     font-family: calibri;
     font-weight: bold;
-    color: #3e3e3d;
+    color: goldenrod;
     font-size: 15px;
     line-height: 5px;
 }
 projects-text p:nth-child(3){
 font-family: calibri;
-color: #7e7d7d;
+color: goldenrod;
 }
 .projects-text{
     width:500px;
@@ -219,7 +219,7 @@ color: #7e7d7d;
 .box-1 p:nth-child(2),
 .box-2 p:nth-child(2),
 .box-3 p:nth-child(2){
-    color: #FFFFFF;
+    color: goldenrod;
     font-family: calibri;
     font-size: 23px;
     line-height: 0px;
@@ -231,15 +231,18 @@ color: #7e7d7d;
     text-align: center;
     width: 230px;
     margin: 0px 0px 20px 0px;
-    color: #8f8f8f;
+    color: goldenrod;
 }
 .box-1 button,
 .box-2 button,
 .box-3 button{
     width: 100px;
     height: 30px;
-    background-color: #FFFFFF;
+    background-color: #0B0B0B;
     border: none;
     outline: none;
     border-radius: 5px ;
 }
+
+    
+
