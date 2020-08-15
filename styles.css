@@ -139,7 +139,7 @@ button:active{
 }
 .about-text p:nth-child(3)
 .about-text p:nth-child(4){
-    color: #7E7D7D;
+    color: #7e7d7d;
     font-family: calibri;
     font-size: 16px;
 }
@@ -160,20 +160,20 @@ button:active{
 .projects-text p:nth-child(1){
     font-family: calibri;
     font-weight: bold;
-    color: #3E3D3D;
+    color: #3e3d3d;
     font-size: 30px;
     line-height: 0px;
 }
 projects-text p:nth-child(2){
     font-family: calibri;
     font-weight: bold;
-    color: #3E3E3D;
+    color: #3e3e3d;
     font-size: 15px;
     line-height: 5px;
 }
 projects-text p:nth-child(3){
 font-family: calibri;
-color: #7E7D7D;
+color: #7e7d7d;
 }
 .projects-text{
     width:500px;
@@ -231,7 +231,7 @@ color: #7E7D7D;
     text-align: center;
     width: 230px;
     margin: 0px 0px 20px 0px;
-    color: #8F8F8F;
+    color: #8f8f8f;
 }
 .box-1 button,
 .box-2 button,
