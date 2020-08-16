@@ -285,9 +285,23 @@ h2{
 }
 .input:focus,
 .textarea.area:focus{
-    border: 2px solid #00FF2A;
+    border: 2px solid ;
 }
 .submit{
     width: 100%;
     text-align: center;
+}
+.submit .btn{
+    margin-bottom: 40px;
+     color: #fff;
+     text-decoration: none;
+     text-shadow: 2px 2px 10px #000;
+     padding: 12px 87px;
+}
+.submit .btn:hover{
+    background: goldenrod;
+    border-radius: 35px;
+    box-shadow: 0 0 10px #0C5D19;
+    
+
 }
