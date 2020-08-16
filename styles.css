@@ -105,7 +105,7 @@ button:active{
     left: 70%;
     transform: translateX(-70%);
 }
-.about-container{
+/* .about-container{
     width: 80%;
     height: 330px;
     background-color: #FFFFFF;
@@ -118,8 +118,8 @@ button:active{
 }
 .about-container image{
     height:240px;
-    width: 240px;
-}
+    width: 240px; */
+
 .about-text{
     width: 550px;
 }
@@ -302,6 +302,5 @@ h2{
     background: goldenrod;
     border-radius: 35px;
     box-shadow: 0 0 10px #0C5D19;
-    
 
 }
